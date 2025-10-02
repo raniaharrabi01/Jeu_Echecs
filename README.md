@@ -13,7 +13,7 @@ Le jeu permet l'alternance des tours entre les joueurs et vérifie les condition
 
 Design patterns utilisés :
 Strategy Pattern :
-Utilisé pour gérer les différents comportements des pièces. Chaque pièce (roi, reine, fou, etc.) a une stratégie de déplacement spécifique. Le Strategy Pattern permet de changer dynamiquement la manière dont une pièce se déplace sans modifier son code, mais en remplaçant la stratégie de déplacement associée à la pièce. \n
+Utilisé pour gérer les différents comportements des pièces. Chaque pièce (roi, reine, fou, etc.) a une stratégie de déplacement spécifique. Le Strategy Pattern permet de changer dynamiquement la manière dont une pièce se déplace sans modifier son code, mais en remplaçant la stratégie de déplacement associée à la pièce. 
 Singleton Pattern :
 Appliqué pour la gestion de la partie et du plateau de jeu. Il garantit qu'il n'y a qu'une seule instance du plateau et de la partie pendant toute la durée du jeu, ce qui simplifie le suivi des états du jeu et évite la création d'instances redondantes.
 Observer Pattern :
